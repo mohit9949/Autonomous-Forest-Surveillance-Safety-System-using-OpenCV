@@ -1,0 +1,7 @@
+rhino-10,10
+rhinonew=1.9,10
+tiger-1.3,5
+lion15-10,6
+lion20-2,6
+bear-8,8
+bearnew-12,12
