@@ -1,0 +1,12 @@
+C:\Users\krish\Desktop\major project\c#\web_cam\web_cam\bin\Debug\web_cam.exe.config
+C:\Users\krish\Desktop\major project\c#\web_cam\web_cam\bin\Debug\web_cam.exe
+C:\Users\krish\Desktop\major project\c#\web_cam\web_cam\bin\Debug\web_cam.pdb
+C:\Users\krish\Desktop\major project\c#\web_cam\web_cam\obj\Debug\web_cam.csprojResolveAssemblyReference.cache
+C:\Users\krish\Desktop\major project\c#\web_cam\web_cam\obj\Debug\web_cam.Form1.resources
+C:\Users\krish\Desktop\major project\c#\web_cam\web_cam\obj\Debug\web_cam.Properties.Resources.resources
+C:\Users\krish\Desktop\major project\c#\web_cam\web_cam\obj\Debug\web_cam.csproj.GenerateResource.Cache
+C:\Users\krish\Desktop\major project\c#\web_cam\web_cam\obj\Debug\web_cam.exe
+C:\Users\krish\Desktop\major project\c#\web_cam\web_cam\obj\Debug\web_cam.pdb
+C:\Users\krish\Desktop\major project\c#\web_cam\web_cam\bin\Debug\AForge.dll
+C:\Users\krish\Desktop\major project\c#\web_cam\web_cam\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\krish\Desktop\major project\c#\web_cam\web_cam\bin\Debug\AForge.Video.dll

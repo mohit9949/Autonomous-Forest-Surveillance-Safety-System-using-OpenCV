@@ -1,0 +1,81 @@
+public void client_func()
+        {
+            try
+            {
+
+
+            TcpClient tcpclnt = new TcpClient();
+                // label1.Text=("Connecting.....");
+               
+               tcpclnt.Connect(textBox1.Text,  int.Parse(textBox2.Text));
+                
+                // use the ipaddress as in the server program
+
+               // label2.Text = ("Connected");
+                // Console.Write("Enter the string to be transmitted : ");
+
+                String str = textBox3.Text;
+                Stream stm = tcpclnt.GetStream();
+
+                ASCIIEncoding asen = new ASCIIEncoding();
+                byte[] ba = asen.GetBytes(str);
+              //  label3.Text = ("Transmitting.....");
+
+                stm.Write(ba, 0, ba.Length);
+
+                byte[] bb = new byte[1000];
+                int k = stm.Read(bb, 0, 1000);
+                String res = "";
+                for (int i = 0; i < k; i++)
+                    textBox3.Text += Convert.ToChar(bb[i]);
+                label4.Text = (res);
+                tcpclnt.Close();
+            }
+
+            catch (Exception e)
+            {
+                MessageBox.Show("Error... \n" + e.StackTrace);
+            }
+           
+        }
+
+
+
+        public void server_func()
+        {
+            try
+            {
+                 ipAd = IPAddress.Parse(textBox1.Text);
+                 myList = new TcpListener(IPAddress.Any, int.Parse(textBox2.Text));  /* Initializes the Listener */
+                
+                myList.Start();   /* Start Listeneting at the specified port */       // Console.WriteLine("Waiting for a connection.....");
+                string str = "";
+                do
+                {
+                    
+                    Socket s = myList.AcceptSocket();                    //    label2.Text = "Connection accepted from " + s.RemoteEndPoint;
+
+                    byte[] b = new byte[1000];
+                    int k = s.Receive(b);                    //       label3.Text = "Recieved...";
+                    str = "";
+                    for (int i = 0; i < k; i++)
+                        str += Convert.ToChar(b[i]);
+
+                    ASCIIEncoding asen = new ASCIIEncoding();
+                    s.Send(asen.GetBytes("Recieved..." + str));                     //     label5.Text = "\nSent Acknowledgement";
+
+                    s.Close();
+                    
+                    textBox3.Text = str;
+                } while (str != "stop");
+                
+                
+                myList.Stop();
+            
+            }
+            catch (Exception e)
+            {
+               MessageBox.Show("Error..... \n" + e.StackTrace);
+            }
+           // label6.Text = "done";
+        }
