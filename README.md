@@ -5,3 +5,4 @@ The current forest surveillance systems methods consume a lot of resources and a
 We propose a autonomous surveillance system which uses object detection which is simple, modular, cheap, user friendly and can detect fire and various animals. The forest fire used to identify the placing of sensors like flame sensor and temperature sensor. The human and animal surveillance are done using object detection systems (Haar & KNN) which can be trained to detect specific animals, humans or tools.It can capture, monitor and store videos or photos and send real-time alerts as emails or text messages. The system can be controlled using an app on PC which also gives us an estimate of population, likelihood of fire, etc.
 
 # Output Samples:
+![tiger](https://github.com/mohit9949/Autonomous-Forest-Surveillance-Safety-System-using-OpenCV/blob/master/MainProjectm/tiger.png?raw=true) !
