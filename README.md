@@ -17,3 +17,7 @@ We propose a autonomous surveillance system which uses object detection which is
 
 # Published:
 Link: http://yuict.yu.edu.sa/wp-content/uploads/2018/02/CR14.pdf
+
+# Credits to team:
+1)Krishna Sai Varma
+2)Jithendher Reddy
