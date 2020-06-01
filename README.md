@@ -16,7 +16,7 @@ We propose a autonomous surveillance system which uses object detection which is
 ![cont](https://github.com/mohit9949/Autonomous-Forest-Surveillance-Safety-System-using-OpenCV/blob/master/MainProjectm/controller.png?raw=true) 
 
 # Published:
-Link: http://yuict.yu.edu.sa/wp-content/uploads/2018/02/CR14.pdf
+Link: https://pdfs.semanticscholar.org/b3d2/b32af69072b58da5e2c9238170102438a095.pdf
 
 # Credits to team:
 1)Krishna Sai Varma
